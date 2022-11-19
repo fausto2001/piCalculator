@@ -10,6 +10,7 @@ void main()
 
 void calculatePi()
 {
+    //using Nilakantha series
     float acc = 3;
     float num = 4;
     float den = 0;
@@ -30,7 +31,7 @@ void calculatePi()
             
         }
         
-        printf("%0.50f\n",acc);
+        printf("%0.20f\n",acc);
         counter++;
     }
 }
